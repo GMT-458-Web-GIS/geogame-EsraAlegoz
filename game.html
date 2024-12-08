@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oyun Haritası</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Harita -->
+    <div id="map"></div>
+
+    <!-- Skor ve Süre -->
+    <div id="gameInfo">
+        <div id="score">Skor: 0</div>
+        <div id="timer">Süre: 60</div>
+    </div>
+
+    <!-- Modal -->
+    <div id="questionModal">
+        <p id="questionText"></p>
+        <input type="text" id="answerInput" placeholder="Cevabınızı yazın" />
+        <button id="submitAnswer">Gönder</button>
+    </div>
+
+    <!-- Süre Doldu Modali -->
+    <div id="timeUpModal" class="modal">
+        <div class="modal-content">
+            <h2>Süre Doldu!</h2>
+            <p>Skorunuz: <span id="finalScore"></span></p>
+        </div>
+    </div>
+
+    <!-- Bildirim -->
+    <div id="notification" class="hidden"></div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
