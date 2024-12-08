@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kayıp Hazine Avı</title>
-    <link rel="stylesheet" href="style.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,11 +12,18 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #f4f4f4;
+            background-image: url('resim.png'); /* Arkaplan resmini buraya ekle */
+            background-size: cover; /* Resmi tam ekran yapar */
+            background-position: center; /* Resmi ortalar */
+            background-repeat: no-repeat; /* Tekrar etmez */
         }
 
         #startScreen {
             text-align: center;
+            background-color: rgba(255, 255, 255, 0.8); /* Yarı saydam arka plan */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Gölge efekti */
         }
 
         #startGameButton {
@@ -28,6 +34,12 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        #startGameButton:hover {
+            background-color: #0056b3;
+            transform: scale(1.1); /* Hoverda büyütme efekti */
         }
 
         #animation {
