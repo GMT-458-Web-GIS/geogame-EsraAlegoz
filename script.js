@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let map; // Haritayı global hale getirdik
 
     const markers = [
-        { coords: [39.925533, 32.866287], popup: 'Görev 1: Dünya\'nın uydusu nedir?', correctAnswer: 'ay' },
+        { coords: [39.925533, 32.866287], popup: 'Görev 1: Dünya\'nın uydusu nedir? ', correctAnswer: 'ay' },
         { coords: [39.925533, 35.866287], popup: 'Görev 2: Türkiye\'nin başkenti nedir?', correctAnswer: 'ankara' },
         { coords: [39.925533, 38.866287], popup: 'Görev 3: Gezilerini Seyahatname adlı eserde toplayan Türk gezgin kimdir?', correctAnswer: 'evliya çelebi' },
         { coords: [39.925533, 41.866287], popup: 'Görev 4: Duvara asılı bir haritanın sağı her zaman hangi yönü gösterir?', correctAnswer: 'doğu' },
