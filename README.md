@@ -48,4 +48,4 @@ If an incorrect answer is given, the message "Wrong answer! Try again." is displ
 
 Note: You can guess the shape 3 times until the game time ends. If the tasks are completed just before the time ends, the shape will appear.
 
-https://gmt-458-web-gis.github.io/geogame-EsraAlegoz/
+
