@@ -8,6 +8,14 @@
 ![Ekran Görüntüsü (141)](https://github.com/user-attachments/assets/c8b082f4-657a-4dc6-8932-61d094cd401e)
 
 
+
+![Ekran Görüntüsü (178)](https://github.com/user-attachments/assets/e02affda-9430-43b3-8b0b-1671931f660f)
+
+
+
+
+
+
   ## Game Features and Requirements
 
 - **Objective**:  The player follows quests to find hidden treasures scattered around the world map and earns points for completing each quest.
@@ -36,3 +44,6 @@ After the player enters their answer to the question, it is checked whether it i
 - Feedback Popup:
 If the player's answer is correct, the message "Mission completed!" is displayed.
 If an incorrect answer is given, the message "Wrong answer! Try again." is displayed.
+
+
+Note: You can guess the shape 3 times until the game time ends. If the tasks are completed just before the time ends, the shape will appear.
